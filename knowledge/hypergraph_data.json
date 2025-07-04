@@ -1,0 +1,1670 @@
+{
+  "https://docs.hypergraph.thegraph.com/docs/quickstart": {
+    "title": "Quickstart | Hypergraph",
+    "description": "Create your first Hypergraph-powered application in minutes with TypeSync.",
+    "text": "🚀 Quickstart On this page 🚀 Quickstart If you just want to get started and get a feel for how Hypergraph works, we have created an example app that you can clone and use as a starting point. Explore the Example app ​ In order to get started as fast as possible we have created an example app that you can clone and use as a starting point. git clone https://github.com/geobrowser/hypergraph-app-template.git cd hypergraph-app-template pnpm install pnpm dev Open the browser, navigate to http://localhost:5173 and you should see the app running. Create a new app using TypeSync ​ In case you want build an app with your own data types you can follow the guide below. It will walk you through creating a new, fully-functional React application powered by Hypergraph using our scaffolding tool, TypeSync . In just a few minutes, you'll have a local development environment up and running. Prerequisites ​ Node.js >= 22 pnpm >= 10 (install with npm install -g pnpm ) 1. Install the Hypergraph CLI ​ First install the Hypergraph CLI. npm install -g @graphprotocol/hypergraph-cli@latest When using pnpm you need to v10 or higher pnpm install -g @graphprotocol/hypergraph-cli@latest pnpm approve-builds -g # select @tailwindcss/oxide, better-sqlite3, and esbuild 2. Launch TypeSync ​ TypeSync is a visual tool that helps you define your data schema and then generates a complete starter application based on your design. Launch it with hg typesync --open This will start the TypeSync server. You can now access the TypeSync app in your browser at http://localhost:3000 . 3. Scaffold Your Application ​ In the TypeSync Studio: Give your new application a name and a short description. Use the visual editor to define your data models (we call them \"types\"). Pick the type \"Academic Field\". Then click \"Generate App\". TypeSync will create a new directory for your application (e.g., ./my-awesome-app ) containing all the files and dependencies you need. 4. Run Your New App ​ Once your app is generated, open ",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "🚀 Quickstart"
+      },
+      {
+        "level": "h2",
+        "text": "Explore the Example app​"
+      },
+      {
+        "level": "h2",
+        "text": "Create a new app using TypeSync​"
+      },
+      {
+        "level": "h3",
+        "text": "Prerequisites​"
+      },
+      {
+        "level": "h3",
+        "text": "1. Install the Hypergraph CLI​"
+      },
+      {
+        "level": "h3",
+        "text": "2. Launch TypeSync​"
+      },
+      {
+        "level": "h3",
+        "text": "3. Scaffold Your Application​"
+      },
+      {
+        "level": "h3",
+        "text": "4. Run Your New App​"
+      },
+      {
+        "level": "h2",
+        "text": "Edit on GitHub👤​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/quickstart#__docusaurus_skipToContent_fallback": {
+    "title": "Quickstart | Hypergraph",
+    "description": "Create your first Hypergraph-powered application in minutes with TypeSync.",
+    "text": "🚀 Quickstart On this page 🚀 Quickstart If you just want to get started and get a feel for how Hypergraph works, we have created an example app that you can clone and use as a starting point. Explore the Example app ​ In order to get started as fast as possible we have created an example app that you can clone and use as a starting point. git clone https://github.com/geobrowser/hypergraph-app-template.git cd hypergraph-app-template pnpm install pnpm dev Open the browser, navigate to http://localhost:5173 and you should see the app running. Create a new app using TypeSync ​ In case you want build an app with your own data types you can follow the guide below. It will walk you through creating a new, fully-functional React application powered by Hypergraph using our scaffolding tool, TypeSync . In just a few minutes, you'll have a local development environment up and running. Prerequisites ​ Node.js >= 22 pnpm >= 10 (install with npm install -g pnpm ) 1. Install the Hypergraph CLI ​ First install the Hypergraph CLI. npm install -g @graphprotocol/hypergraph-cli@latest When using pnpm you need to v10 or higher pnpm install -g @graphprotocol/hypergraph-cli@latest pnpm approve-builds -g # select @tailwindcss/oxide, better-sqlite3, and esbuild 2. Launch TypeSync ​ TypeSync is a visual tool that helps you define your data schema and then generates a complete starter application based on your design. Launch it with hg typesync --open This will start the TypeSync server. You can now access the TypeSync app in your browser at http://localhost:3000 . 3. Scaffold Your Application ​ In the TypeSync Studio: Give your new application a name and a short description. Use the visual editor to define your data models (we call them \"types\"). Pick the type \"Academic Field\". Then click \"Generate App\". TypeSync will create a new directory for your application (e.g., ./my-awesome-app ) containing all the files and dependencies you need. 4. Run Your New App ​ Once your app is generated, open ",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "🚀 Quickstart"
+      },
+      {
+        "level": "h2",
+        "text": "Explore the Example app​"
+      },
+      {
+        "level": "h2",
+        "text": "Create a new app using TypeSync​"
+      },
+      {
+        "level": "h3",
+        "text": "Prerequisites​"
+      },
+      {
+        "level": "h3",
+        "text": "1. Install the Hypergraph CLI​"
+      },
+      {
+        "level": "h3",
+        "text": "2. Launch TypeSync​"
+      },
+      {
+        "level": "h3",
+        "text": "3. Scaffold Your Application​"
+      },
+      {
+        "level": "h3",
+        "text": "4. Run Your New App​"
+      },
+      {
+        "level": "h2",
+        "text": "Edit on GitHub👤​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/": {
+    "title": "Hello from Hypergraph | Hypergraph",
+    "description": "Description will go into a meta tag in <head />",
+    "text": "Focus on What Matters Secure by Default Private content is end-to-end encrypted by default, and public content is stored in the Knowledge Graph backed by IPFS and a blockchain. Easy to Use Easy to Use When building with Hypergraph, developers only need to write client-side software - the framework takes care of the infrastructure, including privacy (E2EE) by default and storing public content in an interoperable, interconnected Knowledge Graph. Powered by React Collaboration built-in Hypergraph spaces can be shared with other users, and can be used to collaborate on content in real-time.",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Hypergraph"
+      },
+      {
+        "level": "h3",
+        "text": "Secure by Default"
+      },
+      {
+        "level": "h3",
+        "text": "Easy to Use"
+      },
+      {
+        "level": "h3",
+        "text": "Collaboration built-in"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/#__docusaurus_skipToContent_fallback": {
+    "title": "Hello from Hypergraph | Hypergraph",
+    "description": "Description will go into a meta tag in <head />",
+    "text": "Focus on What Matters Secure by Default Private content is end-to-end encrypted by default, and public content is stored in the Knowledge Graph backed by IPFS and a blockchain. Easy to Use Easy to Use When building with Hypergraph, developers only need to write client-side software - the framework takes care of the infrastructure, including privacy (E2EE) by default and storing public content in an interoperable, interconnected Knowledge Graph. Powered by React Collaboration built-in Hypergraph spaces can be shared with other users, and can be used to collaborate on content in real-time.",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Hypergraph"
+      },
+      {
+        "level": "h3",
+        "text": "Secure by Default"
+      },
+      {
+        "level": "h3",
+        "text": "Easy to Use"
+      },
+      {
+        "level": "h3",
+        "text": "Collaboration built-in"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog": {
+    "title": "Blog | Hypergraph",
+    "description": "Blog",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog#__docusaurus_skipToContent_fallback": {
+    "title": "Blog | Hypergraph",
+    "description": "Blog",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/hypergraph-alpha-released": {
+    "title": "Announcing Hypergraph (Developer Preview) | Hypergraph",
+    "description": "After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph. This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications.",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Why We Built Hypergraph ​ The challenges of modern app development are clear: users expect real-time collaboration, bulletproof security, and apps that work flawlessly even when offline. Traditional architectures force uncomfortable trade-offs between these needs. We knew there had to be a better way. Enter Hypergraph, built on two core innovations: a architecture that puts your data where it belongs—on the client—and our implementation of the GRC-20 standard for truly composable knowledge graphs. What Makes Hypergraph Different ​ Security isn't an afterthought—it's built into our foundation. With end-to-end encryption, your data is only readable by those you explicitly trust. No intermediaries, no compromises. The real magic happens with our GRC-20 Knowledge Graph. It's not just a data format; it's a new way of thinking about how information connects and flows through your applications. Every mutation, whether it's adding a note or updating a relationship, becomes part of a larger, interoperable knowledge network. A Note on What to Expect ​ Let's be transparent: this is an developer preview release. You'll see rapid changes as we iterate based on your feedback. Some features are still experimental, and you might encounter sync delays with larger graphs or limited support on mobile browsers. But that's exactly why we need you—every bug report, feature request, and question helps shape Hypergraph's future. Let's Build Together ​ Your voice matters in this journey. Share your experiences, report issues, or just chat w",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      },
+      {
+        "level": "h2",
+        "text": "Why We Built Hypergraph​"
+      },
+      {
+        "level": "h2",
+        "text": "What Makes Hypergraph Different​"
+      },
+      {
+        "level": "h2",
+        "text": "A Note on What to Expect​"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Build Together​"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Shape the Future?​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/hypergraph-alpha-released#__docusaurus_skipToContent_fallback": {
+    "title": "Announcing Hypergraph (Developer Preview) | Hypergraph",
+    "description": "After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph. This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications.",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Why We Built Hypergraph ​ The challenges of modern app development are clear: users expect real-time collaboration, bulletproof security, and apps that work flawlessly even when offline. Traditional architectures force uncomfortable trade-offs between these needs. We knew there had to be a better way. Enter Hypergraph, built on two core innovations: a architecture that puts your data where it belongs—on the client—and our implementation of the GRC-20 standard for truly composable knowledge graphs. What Makes Hypergraph Different ​ Security isn't an afterthought—it's built into our foundation. With end-to-end encryption, your data is only readable by those you explicitly trust. No intermediaries, no compromises. The real magic happens with our GRC-20 Knowledge Graph. It's not just a data format; it's a new way of thinking about how information connects and flows through your applications. Every mutation, whether it's adding a note or updating a relationship, becomes part of a larger, interoperable knowledge network. A Note on What to Expect ​ Let's be transparent: this is an developer preview release. You'll see rapid changes as we iterate based on your feedback. Some features are still experimental, and you might encounter sync delays with larger graphs or limited support on mobile browsers. But that's exactly why we need you—every bug report, feature request, and question helps shape Hypergraph's future. Let's Build Together ​ Your voice matters in this journey. Share your experiences, report issues, or just chat w",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      },
+      {
+        "level": "h2",
+        "text": "Why We Built Hypergraph​"
+      },
+      {
+        "level": "h2",
+        "text": "What Makes Hypergraph Different​"
+      },
+      {
+        "level": "h2",
+        "text": "A Note on What to Expect​"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Build Together​"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Shape the Future?​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/authors/all-nik-articles": {
+    "title": "Nik - One post | Hypergraph",
+    "description": "",
+    "text": "Nik Hypergraph Lead Engineer @ Geo View all authors Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Nik"
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/authors/all-nik-articles#__docusaurus_skipToContent_fallback": {
+    "title": "Nik - One post | Hypergraph",
+    "description": "",
+    "text": "Nik Hypergraph Lead Engineer @ Geo View all authors Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Nik"
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/authors": {
+    "title": "Authors | Hypergraph",
+    "description": "",
+    "text": "Authors Pablo Carranza Velez 1 Engineering Manager @ Edge & Node Nik 1 Hypergraph Lead Engineer @ Geo",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Authors"
+      },
+      {
+        "level": "h2",
+        "text": "Pablo Carranza Velez"
+      },
+      {
+        "level": "h2",
+        "text": "Nik"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/authors#__docusaurus_skipToContent_fallback": {
+    "title": "Authors | Hypergraph",
+    "description": "",
+    "text": "Authors Pablo Carranza Velez 1 Engineering Manager @ Edge & Node Nik 1 Hypergraph Lead Engineer @ Geo",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Authors"
+      },
+      {
+        "level": "h2",
+        "text": "Pablo Carranza Velez"
+      },
+      {
+        "level": "h2",
+        "text": "Nik"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/authors/pablo": {
+    "title": "Pablo Carranza Velez - One post | Hypergraph",
+    "description": "",
+    "text": "Pablo Carranza Velez Engineering Manager @ Edge & Node View all authors Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Pablo Carranza Velez"
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/authors/pablo#__docusaurus_skipToContent_fallback": {
+    "title": "Pablo Carranza Velez - One post | Hypergraph",
+    "description": "",
+    "text": "Pablo Carranza Velez Engineering Manager @ Edge & Node View all authors Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Pablo Carranza Velez"
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags/release": {
+    "title": "One post tagged with \"Release\" | Hypergraph",
+    "description": "Release announcements and updates",
+    "text": "One post tagged with \"Release\" Release announcements and updates View All Tags Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "One post tagged with \"Release\""
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags/release#__docusaurus_skipToContent_fallback": {
+    "title": "One post tagged with \"Release\" | Hypergraph",
+    "description": "Release announcements and updates",
+    "text": "One post tagged with \"Release\" Release announcements and updates View All Tags Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "One post tagged with \"Release\""
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags": {
+    "title": "Tags | Hypergraph",
+    "description": "",
+    "text": "Tags A ​ Alpha 1 H ​ Hypergraph 1 R ​ Release 1",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Tags"
+      },
+      {
+        "level": "h2",
+        "text": "A​"
+      },
+      {
+        "level": "h2",
+        "text": "H​"
+      },
+      {
+        "level": "h2",
+        "text": "R​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags#__docusaurus_skipToContent_fallback": {
+    "title": "Tags | Hypergraph",
+    "description": "",
+    "text": "Tags A ​ Alpha 1 H ​ Hypergraph 1 R ​ Release 1",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Tags"
+      },
+      {
+        "level": "h2",
+        "text": "A​"
+      },
+      {
+        "level": "h2",
+        "text": "H​"
+      },
+      {
+        "level": "h2",
+        "text": "R​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags#A": {
+    "title": "Tags | Hypergraph",
+    "description": "",
+    "text": "Tags A ​ Alpha 1 H ​ Hypergraph 1 R ​ Release 1",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Tags"
+      },
+      {
+        "level": "h2",
+        "text": "A​"
+      },
+      {
+        "level": "h2",
+        "text": "H​"
+      },
+      {
+        "level": "h2",
+        "text": "R​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags/alpha": {
+    "title": "One post tagged with \"Alpha\" | Hypergraph",
+    "description": "Alpha version releases and features",
+    "text": "One post tagged with \"Alpha\" Alpha version releases and features View All Tags Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "One post tagged with \"Alpha\""
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags/alpha#__docusaurus_skipToContent_fallback": {
+    "title": "One post tagged with \"Alpha\" | Hypergraph",
+    "description": "Alpha version releases and features",
+    "text": "One post tagged with \"Alpha\" Alpha version releases and features View All Tags Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "One post tagged with \"Alpha\""
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags/hypergraph": {
+    "title": "One post tagged with \"Hypergraph\" | Hypergraph",
+    "description": "Posts about Hypergraph features and updates",
+    "text": "One post tagged with \"Hypergraph\" Posts about Hypergraph features and updates View All Tags Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "One post tagged with \"Hypergraph\""
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags/hypergraph#__docusaurus_skipToContent_fallback": {
+    "title": "One post tagged with \"Hypergraph\" | Hypergraph",
+    "description": "Posts about Hypergraph features and updates",
+    "text": "One post tagged with \"Hypergraph\" Posts about Hypergraph features and updates View All Tags Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Tags: Release Alpha Hypergraph Read more",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "One post tagged with \"Hypergraph\""
+      },
+      {
+        "level": "h2",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags#H": {
+    "title": "Tags | Hypergraph",
+    "description": "",
+    "text": "Tags A ​ Alpha 1 H ​ Hypergraph 1 R ​ Release 1",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Tags"
+      },
+      {
+        "level": "h2",
+        "text": "A​"
+      },
+      {
+        "level": "h2",
+        "text": "H​"
+      },
+      {
+        "level": "h2",
+        "text": "R​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/tags#R": {
+    "title": "Tags | Hypergraph",
+    "description": "",
+    "text": "Tags A ​ Alpha 1 H ​ Hypergraph 1 R ​ Release 1",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Tags"
+      },
+      {
+        "level": "h2",
+        "text": "A​"
+      },
+      {
+        "level": "h2",
+        "text": "H​"
+      },
+      {
+        "level": "h2",
+        "text": "R​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/hypergraph-alpha-released#why-we-built-hypergraph": {
+    "title": "Announcing Hypergraph (Developer Preview) | Hypergraph",
+    "description": "After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph. This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications.",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Why We Built Hypergraph ​ The challenges of modern app development are clear: users expect real-time collaboration, bulletproof security, and apps that work flawlessly even when offline. Traditional architectures force uncomfortable trade-offs between these needs. We knew there had to be a better way. Enter Hypergraph, built on two core innovations: a architecture that puts your data where it belongs—on the client—and our implementation of the GRC-20 standard for truly composable knowledge graphs. What Makes Hypergraph Different ​ Security isn't an afterthought—it's built into our foundation. With end-to-end encryption, your data is only readable by those you explicitly trust. No intermediaries, no compromises. The real magic happens with our GRC-20 Knowledge Graph. It's not just a data format; it's a new way of thinking about how information connects and flows through your applications. Every mutation, whether it's adding a note or updating a relationship, becomes part of a larger, interoperable knowledge network. A Note on What to Expect ​ Let's be transparent: this is an developer preview release. You'll see rapid changes as we iterate based on your feedback. Some features are still experimental, and you might encounter sync delays with larger graphs or limited support on mobile browsers. But that's exactly why we need you—every bug report, feature request, and question helps shape Hypergraph's future. Let's Build Together ​ Your voice matters in this journey. Share your experiences, report issues, or just chat w",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      },
+      {
+        "level": "h2",
+        "text": "Why We Built Hypergraph​"
+      },
+      {
+        "level": "h2",
+        "text": "What Makes Hypergraph Different​"
+      },
+      {
+        "level": "h2",
+        "text": "A Note on What to Expect​"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Build Together​"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Shape the Future?​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/hypergraph-alpha-released#what-makes-hypergraph-different": {
+    "title": "Announcing Hypergraph (Developer Preview) | Hypergraph",
+    "description": "After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph. This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications.",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Why We Built Hypergraph ​ The challenges of modern app development are clear: users expect real-time collaboration, bulletproof security, and apps that work flawlessly even when offline. Traditional architectures force uncomfortable trade-offs between these needs. We knew there had to be a better way. Enter Hypergraph, built on two core innovations: a architecture that puts your data where it belongs—on the client—and our implementation of the GRC-20 standard for truly composable knowledge graphs. What Makes Hypergraph Different ​ Security isn't an afterthought—it's built into our foundation. With end-to-end encryption, your data is only readable by those you explicitly trust. No intermediaries, no compromises. The real magic happens with our GRC-20 Knowledge Graph. It's not just a data format; it's a new way of thinking about how information connects and flows through your applications. Every mutation, whether it's adding a note or updating a relationship, becomes part of a larger, interoperable knowledge network. A Note on What to Expect ​ Let's be transparent: this is an developer preview release. You'll see rapid changes as we iterate based on your feedback. Some features are still experimental, and you might encounter sync delays with larger graphs or limited support on mobile browsers. But that's exactly why we need you—every bug report, feature request, and question helps shape Hypergraph's future. Let's Build Together ​ Your voice matters in this journey. Share your experiences, report issues, or just chat w",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      },
+      {
+        "level": "h2",
+        "text": "Why We Built Hypergraph​"
+      },
+      {
+        "level": "h2",
+        "text": "What Makes Hypergraph Different​"
+      },
+      {
+        "level": "h2",
+        "text": "A Note on What to Expect​"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Build Together​"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Shape the Future?​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/hypergraph-alpha-released#a-note-on-what-to-expect": {
+    "title": "Announcing Hypergraph (Developer Preview) | Hypergraph",
+    "description": "After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph. This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications.",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Why We Built Hypergraph ​ The challenges of modern app development are clear: users expect real-time collaboration, bulletproof security, and apps that work flawlessly even when offline. Traditional architectures force uncomfortable trade-offs between these needs. We knew there had to be a better way. Enter Hypergraph, built on two core innovations: a architecture that puts your data where it belongs—on the client—and our implementation of the GRC-20 standard for truly composable knowledge graphs. What Makes Hypergraph Different ​ Security isn't an afterthought—it's built into our foundation. With end-to-end encryption, your data is only readable by those you explicitly trust. No intermediaries, no compromises. The real magic happens with our GRC-20 Knowledge Graph. It's not just a data format; it's a new way of thinking about how information connects and flows through your applications. Every mutation, whether it's adding a note or updating a relationship, becomes part of a larger, interoperable knowledge network. A Note on What to Expect ​ Let's be transparent: this is an developer preview release. You'll see rapid changes as we iterate based on your feedback. Some features are still experimental, and you might encounter sync delays with larger graphs or limited support on mobile browsers. But that's exactly why we need you—every bug report, feature request, and question helps shape Hypergraph's future. Let's Build Together ​ Your voice matters in this journey. Share your experiences, report issues, or just chat w",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      },
+      {
+        "level": "h2",
+        "text": "Why We Built Hypergraph​"
+      },
+      {
+        "level": "h2",
+        "text": "What Makes Hypergraph Different​"
+      },
+      {
+        "level": "h2",
+        "text": "A Note on What to Expect​"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Build Together​"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Shape the Future?​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/hypergraph-alpha-released#lets-build-together": {
+    "title": "Announcing Hypergraph (Developer Preview) | Hypergraph",
+    "description": "After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph. This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications.",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Why We Built Hypergraph ​ The challenges of modern app development are clear: users expect real-time collaboration, bulletproof security, and apps that work flawlessly even when offline. Traditional architectures force uncomfortable trade-offs between these needs. We knew there had to be a better way. Enter Hypergraph, built on two core innovations: a architecture that puts your data where it belongs—on the client—and our implementation of the GRC-20 standard for truly composable knowledge graphs. What Makes Hypergraph Different ​ Security isn't an afterthought—it's built into our foundation. With end-to-end encryption, your data is only readable by those you explicitly trust. No intermediaries, no compromises. The real magic happens with our GRC-20 Knowledge Graph. It's not just a data format; it's a new way of thinking about how information connects and flows through your applications. Every mutation, whether it's adding a note or updating a relationship, becomes part of a larger, interoperable knowledge network. A Note on What to Expect ​ Let's be transparent: this is an developer preview release. You'll see rapid changes as we iterate based on your feedback. Some features are still experimental, and you might encounter sync delays with larger graphs or limited support on mobile browsers. But that's exactly why we need you—every bug report, feature request, and question helps shape Hypergraph's future. Let's Build Together ​ Your voice matters in this journey. Share your experiences, report issues, or just chat w",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      },
+      {
+        "level": "h2",
+        "text": "Why We Built Hypergraph​"
+      },
+      {
+        "level": "h2",
+        "text": "What Makes Hypergraph Different​"
+      },
+      {
+        "level": "h2",
+        "text": "A Note on What to Expect​"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Build Together​"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Shape the Future?​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/blog/hypergraph-alpha-released#ready-to-shape-the-future": {
+    "title": "Announcing Hypergraph (Developer Preview) | Hypergraph",
+    "description": "After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph. This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications.",
+    "text": "Announcing Hypergraph (Developer Preview) July 3, 2025 · 3 min read Nik Hypergraph Lead Engineer @ Geo Pablo Carranza Velez Engineering Manager @ Edge & Node After months of development and countless conversations with developers like you, we're thrilled to unveil the Developer Preview version of Hypergraph . This is more than just another data layer—it's a fundamental rethinking of how we build collaborative, secure, and offline-first Web3 applications. Why We Built Hypergraph ​ The challenges of modern app development are clear: users expect real-time collaboration, bulletproof security, and apps that work flawlessly even when offline. Traditional architectures force uncomfortable trade-offs between these needs. We knew there had to be a better way. Enter Hypergraph, built on two core innovations: a architecture that puts your data where it belongs—on the client—and our implementation of the GRC-20 standard for truly composable knowledge graphs. What Makes Hypergraph Different ​ Security isn't an afterthought—it's built into our foundation. With end-to-end encryption, your data is only readable by those you explicitly trust. No intermediaries, no compromises. The real magic happens with our GRC-20 Knowledge Graph. It's not just a data format; it's a new way of thinking about how information connects and flows through your applications. Every mutation, whether it's adding a note or updating a relationship, becomes part of a larger, interoperable knowledge network. A Note on What to Expect ​ Let's be transparent: this is an developer preview release. You'll see rapid changes as we iterate based on your feedback. Some features are still experimental, and you might encounter sync delays with larger graphs or limited support on mobile browsers. But that's exactly why we need you—every bug report, feature request, and question helps shape Hypergraph's future. Let's Build Together ​ Your voice matters in this journey. Share your experiences, report issues, or just chat w",
+    "headers": [
+      {
+        "level": "h3",
+        "text": "2025"
+      },
+      {
+        "level": "h1",
+        "text": "Announcing Hypergraph (Developer Preview)"
+      },
+      {
+        "level": "h2",
+        "text": "Why We Built Hypergraph​"
+      },
+      {
+        "level": "h2",
+        "text": "What Makes Hypergraph Different​"
+      },
+      {
+        "level": "h2",
+        "text": "A Note on What to Expect​"
+      },
+      {
+        "level": "h2",
+        "text": "Let's Build Together​"
+      },
+      {
+        "level": "h2",
+        "text": "Ready to Shape the Future?​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/key-features": {
+    "title": "Key Features | Hypergraph",
+    "description": "Why choose Hypergraph? A tour of the core capabilities that set it apart from traditional client-server stacks.",
+    "text": "🌟 Key Features On this page 🌟 Key Features Hypergraph is more than a database —it's a complete data layer for building collaborative, local-first apps. Below is a tour of the capabilities you get out of the box. Table of Contents ​ End-to-end encryption Knowledge Graph SDK Graph-based data model Conflict-free sync (CRDTs) Spaces & fine-grained auth End-to-end encryption ​ Every update is encrypted on the client using XChaCha20-Poly1305. Only members of a Space possess the symmetric key, so neither the sync server nor The Graph can read private data. Automatic key rotation when members join/leave (not yet implemented). Multi-device : each device holds its own key pair. Knowledge Graph SDK ​ Build, link, and publish knowledge as entities and relations using the @graphprotocol/grc-20 Knowledge Graph SDK. It makes it easy to organize data into spaces, anchor edits onchain, and work with The Graph's knowledge graph standard. Graph-based data model ​ Under the hood, Hypergraph stores JSON-LD values that map nicely to knowledge graphs . This makes it trivial to expose public data on-chain or query it with a GRC-20 compliant indexer later. Conflict-free sync (CRDTs) ​ We use Automerge (a JSON CRDT) to merge concurrent edits without conflicts. Snapshots are automatically compacted to keep payloads small. Spaces & fine-grained auth ​ A Space groups both people and data . Fine-grained access will come soon. Ready to dive deeper? Check out the Quickstart or browse the full API Reference . ✏️ Improve this page Tags: features overview Edit this page Previous 🚀 Quickstart Next 🧠 Core Concepts Table of Contents End-to-end encryption Knowledge Graph SDK Graph-based data model Conflict-free sync (CRDTs) Spaces & fine-grained auth",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "🌟 Key Features"
+      },
+      {
+        "level": "h2",
+        "text": "Table of Contents​"
+      },
+      {
+        "level": "h2",
+        "text": "End-to-end encryption​"
+      },
+      {
+        "level": "h2",
+        "text": "Knowledge Graph SDK​"
+      },
+      {
+        "level": "h2",
+        "text": "Graph-based data model​"
+      },
+      {
+        "level": "h2",
+        "text": "Conflict-free sync (CRDTs)​"
+      },
+      {
+        "level": "h2",
+        "text": "Spaces & fine-grained auth​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/key-features#__docusaurus_skipToContent_fallback": {
+    "title": "Key Features | Hypergraph",
+    "description": "Why choose Hypergraph? A tour of the core capabilities that set it apart from traditional client-server stacks.",
+    "text": "🌟 Key Features On this page 🌟 Key Features Hypergraph is more than a database —it's a complete data layer for building collaborative, local-first apps. Below is a tour of the capabilities you get out of the box. Table of Contents ​ End-to-end encryption Knowledge Graph SDK Graph-based data model Conflict-free sync (CRDTs) Spaces & fine-grained auth End-to-end encryption ​ Every update is encrypted on the client using XChaCha20-Poly1305. Only members of a Space possess the symmetric key, so neither the sync server nor The Graph can read private data. Automatic key rotation when members join/leave (not yet implemented). Multi-device : each device holds its own key pair. Knowledge Graph SDK ​ Build, link, and publish knowledge as entities and relations using the @graphprotocol/grc-20 Knowledge Graph SDK. It makes it easy to organize data into spaces, anchor edits onchain, and work with The Graph's knowledge graph standard. Graph-based data model ​ Under the hood, Hypergraph stores JSON-LD values that map nicely to knowledge graphs . This makes it trivial to expose public data on-chain or query it with a GRC-20 compliant indexer later. Conflict-free sync (CRDTs) ​ We use Automerge (a JSON CRDT) to merge concurrent edits without conflicts. Snapshots are automatically compacted to keep payloads small. Spaces & fine-grained auth ​ A Space groups both people and data . Fine-grained access will come soon. Ready to dive deeper? Check out the Quickstart or browse the full API Reference . ✏️ Improve this page Tags: features overview Edit this page Previous 🚀 Quickstart Next 🧠 Core Concepts Table of Contents End-to-end encryption Knowledge Graph SDK Graph-based data model Conflict-free sync (CRDTs) Spaces & fine-grained auth",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "🌟 Key Features"
+      },
+      {
+        "level": "h2",
+        "text": "Table of Contents​"
+      },
+      {
+        "level": "h2",
+        "text": "End-to-end encryption​"
+      },
+      {
+        "level": "h2",
+        "text": "Knowledge Graph SDK​"
+      },
+      {
+        "level": "h2",
+        "text": "Graph-based data model​"
+      },
+      {
+        "level": "h2",
+        "text": "Conflict-free sync (CRDTs)​"
+      },
+      {
+        "level": "h2",
+        "text": "Spaces & fine-grained auth​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/core-concepts": {
+    "title": "Core Concepts | Hypergraph",
+    "description": "Key ideas behind Hypergraph—Spaces, Identities, Inboxes, and the Knowledge Graph.",
+    "text": "🧠 Core Concepts On this page 🧠 Core Concepts Hypergraph re-imagines traditional client–server apps as knowledge graphs. Understanding the following building blocks will help you design applications that feel real-time, privacy-preserving, and interoperable by default. Table of Contents ​ Knowledge Graphs Spaces Identities Inboxes Events & CRDTs Security Model GRC-20: The Protocol Under the Hood Knowledge Graphs ​ Traditional databases store data in rows and columns. Knowledge graphs store data as networks of connected information —think of it like a mind map where every piece of information can link to any other piece. Why Knowledge Graphs? ​ Imagine you're building a social app. In a traditional database, you might have separate tables for users , posts , and likes . But what if you want to find \"posts by photographers that my friends liked\"? That requires complex joins across multiple tables. In a knowledge graph, the relationships are the data: graph LR Teresa[👩 Teresa] -->|profession| Photography[📸 Photography] Teresa -->|owns| Camera[📷 Fujifilm X100] Teresa -->|posted| Photo[🖼️ Street Photo] Alex[👨 Alex] -->|friend_of| Teresa Alex -->|liked| Photo This makes complex queries natural and fast. Plus, your data model can evolve organically—just add new types of entities and relationships without schema migrations. The Hypergraph Advantage ​ Hypergraph takes knowledge graphs further by making them: 🔒 Private by default — Your personal data stays encrypted on your device 🌐 Peer-to-peer — No central server required; collaborate directly with friends ⚡ Real-time — Changes sync instantly across all your devices 🔗 Interoperable — Your data works across different apps that speak the same protocol The magic: Under the hood, Hypergraph serializes everything using the GRC-20 standard. As a developer, you just work with simple SDK calls—Hypergraph handles the complex cryptography, serialization, and networking. If you're curious about the low-level details, check out the GRC-",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "🧠 Core Concepts"
+      },
+      {
+        "level": "h2",
+        "text": "Table of Contents​"
+      },
+      {
+        "level": "h2",
+        "text": "Knowledge Graphs​"
+      },
+      {
+        "level": "h3",
+        "text": "Why Knowledge Graphs?​"
+      },
+      {
+        "level": "h3",
+        "text": "The Hypergraph Advantage​"
+      },
+      {
+        "level": "h2",
+        "text": "Spaces​"
+      },
+      {
+        "level": "h3",
+        "text": "Lifecycle events​"
+      },
+      {
+        "level": "h2",
+        "text": "Identities​"
+      },
+      {
+        "level": "h2",
+        "text": "Inboxes​"
+      },
+      {
+        "level": "h2",
+        "text": "Events & CRDTs​"
+      },
+      {
+        "level": "h2",
+        "text": "Security Model​"
+      },
+      {
+        "level": "h2",
+        "text": "GRC-20: The Protocol Under the Hood​"
+      },
+      {
+        "level": "h3",
+        "text": "Why Does GRC-20 Exist?​"
+      },
+      {
+        "level": "h3",
+        "text": "Edit on GitHub​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/core-concepts#__docusaurus_skipToContent_fallback": {
+    "title": "Core Concepts | Hypergraph",
+    "description": "Key ideas behind Hypergraph—Spaces, Identities, Inboxes, and the Knowledge Graph.",
+    "text": "🧠 Core Concepts On this page 🧠 Core Concepts Hypergraph re-imagines traditional client–server apps as knowledge graphs. Understanding the following building blocks will help you design applications that feel real-time, privacy-preserving, and interoperable by default. Table of Contents ​ Knowledge Graphs Spaces Identities Inboxes Events & CRDTs Security Model GRC-20: The Protocol Under the Hood Knowledge Graphs ​ Traditional databases store data in rows and columns. Knowledge graphs store data as networks of connected information —think of it like a mind map where every piece of information can link to any other piece. Why Knowledge Graphs? ​ Imagine you're building a social app. In a traditional database, you might have separate tables for users , posts , and likes . But what if you want to find \"posts by photographers that my friends liked\"? That requires complex joins across multiple tables. In a knowledge graph, the relationships are the data: graph LR Teresa[👩 Teresa] -->|profession| Photography[📸 Photography] Teresa -->|owns| Camera[📷 Fujifilm X100] Teresa -->|posted| Photo[🖼️ Street Photo] Alex[👨 Alex] -->|friend_of| Teresa Alex -->|liked| Photo This makes complex queries natural and fast. Plus, your data model can evolve organically—just add new types of entities and relationships without schema migrations. The Hypergraph Advantage ​ Hypergraph takes knowledge graphs further by making them: 🔒 Private by default — Your personal data stays encrypted on your device 🌐 Peer-to-peer — No central server required; collaborate directly with friends ⚡ Real-time — Changes sync instantly across all your devices 🔗 Interoperable — Your data works across different apps that speak the same protocol The magic: Under the hood, Hypergraph serializes everything using the GRC-20 standard. As a developer, you just work with simple SDK calls—Hypergraph handles the complex cryptography, serialization, and networking. If you're curious about the low-level details, check out the GRC-",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "🧠 Core Concepts"
+      },
+      {
+        "level": "h2",
+        "text": "Table of Contents​"
+      },
+      {
+        "level": "h2",
+        "text": "Knowledge Graphs​"
+      },
+      {
+        "level": "h3",
+        "text": "Why Knowledge Graphs?​"
+      },
+      {
+        "level": "h3",
+        "text": "The Hypergraph Advantage​"
+      },
+      {
+        "level": "h2",
+        "text": "Spaces​"
+      },
+      {
+        "level": "h3",
+        "text": "Lifecycle events​"
+      },
+      {
+        "level": "h2",
+        "text": "Identities​"
+      },
+      {
+        "level": "h2",
+        "text": "Inboxes​"
+      },
+      {
+        "level": "h2",
+        "text": "Events & CRDTs​"
+      },
+      {
+        "level": "h2",
+        "text": "Security Model​"
+      },
+      {
+        "level": "h2",
+        "text": "GRC-20: The Protocol Under the Hood​"
+      },
+      {
+        "level": "h3",
+        "text": "Why Does GRC-20 Exist?​"
+      },
+      {
+        "level": "h3",
+        "text": "Edit on GitHub​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/providers": {
+    "title": "Providers | Hypergraph",
+    "description": "HypergraphAppProvider",
+    "text": "🔗 Providers On this page Providers HypergraphAppProvider ​ The HypergraphAppProvider is the main provider for the Hypergraph app. It is used to provide the app with the necessary context and state. import { HypergraphAppProvider } from \"@graphprotocol/hypergraph-react\" ; const App = ( ) => { return ( < HypergraphAppProvider mapping = { { } } > < YourApp /> </ HypergraphAppProvider > ) ; } ; It has one mandatory prop: mapping . This is the mapping of your schema to the public Knowledge Graph schema. You can find more information about the mapping in the Mapping section later. Further it has an optional prop: syncServerUri . This is the URL of the sync server. By default it is set to https://hypergraph.fly.dev . useHypergraphApp ​ The useHypergraphApp is available inside the HypergraphAppProvider and manages the sync server connection and provides serveral useful functions. import { useHypergraphApp } from \"@graphprotocol/hypergraph-react\" ; const App = ( ) => { const { isConnecting , logout } = useHypergraphApp ( ) ; return < div > { isConnecting ? \"Connecting...\" } </ div > ; } ; isConnecting is a boolean that indicates that syncing private spaces is not yet possible. You need to wait until it's false to query data from private spaces. logout is a function that logs out the user. There are serveral more that will be explained in the following sections. useHypergraphAuth ​ The useHypergraphAuth is available inside the HypergraphAppProvider and manages the authentication state and provides serveral useful functions. import { useHypergraphAuth } from \"@graphprotocol/hypergraph-react\" ; const App = ( ) => { const { authenticated , identity } = useHypergraphAuth ( ) ; return < div > { authenticated ? \"Authenticated\" : \"Not authenticated\" } </ div > ; } ; authenticated is a boolean that indicates if the user is authenticated. identity is the identity of the logged in user. HypergraphSpaceProvider ​ Whenever interact with a space you need to provide the space ID. In order ",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Providers"
+      },
+      {
+        "level": "h2",
+        "text": "HypergraphAppProvider​"
+      },
+      {
+        "level": "h2",
+        "text": "useHypergraphApp​"
+      },
+      {
+        "level": "h2",
+        "text": "useHypergraphAuth​"
+      },
+      {
+        "level": "h2",
+        "text": "HypergraphSpaceProvider​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/providers#__docusaurus_skipToContent_fallback": {
+    "title": "Providers | Hypergraph",
+    "description": "HypergraphAppProvider",
+    "text": "🔗 Providers On this page Providers HypergraphAppProvider ​ The HypergraphAppProvider is the main provider for the Hypergraph app. It is used to provide the app with the necessary context and state. import { HypergraphAppProvider } from \"@graphprotocol/hypergraph-react\" ; const App = ( ) => { return ( < HypergraphAppProvider mapping = { { } } > < YourApp /> </ HypergraphAppProvider > ) ; } ; It has one mandatory prop: mapping . This is the mapping of your schema to the public Knowledge Graph schema. You can find more information about the mapping in the Mapping section later. Further it has an optional prop: syncServerUri . This is the URL of the sync server. By default it is set to https://hypergraph.fly.dev . useHypergraphApp ​ The useHypergraphApp is available inside the HypergraphAppProvider and manages the sync server connection and provides serveral useful functions. import { useHypergraphApp } from \"@graphprotocol/hypergraph-react\" ; const App = ( ) => { const { isConnecting , logout } = useHypergraphApp ( ) ; return < div > { isConnecting ? \"Connecting...\" } </ div > ; } ; isConnecting is a boolean that indicates that syncing private spaces is not yet possible. You need to wait until it's false to query data from private spaces. logout is a function that logs out the user. There are serveral more that will be explained in the following sections. useHypergraphAuth ​ The useHypergraphAuth is available inside the HypergraphAppProvider and manages the authentication state and provides serveral useful functions. import { useHypergraphAuth } from \"@graphprotocol/hypergraph-react\" ; const App = ( ) => { const { authenticated , identity } = useHypergraphAuth ( ) ; return < div > { authenticated ? \"Authenticated\" : \"Not authenticated\" } </ div > ; } ; authenticated is a boolean that indicates if the user is authenticated. identity is the identity of the logged in user. HypergraphSpaceProvider ​ Whenever interact with a space you need to provide the space ID. In order ",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Providers"
+      },
+      {
+        "level": "h2",
+        "text": "HypergraphAppProvider​"
+      },
+      {
+        "level": "h2",
+        "text": "useHypergraphApp​"
+      },
+      {
+        "level": "h2",
+        "text": "useHypergraphAuth​"
+      },
+      {
+        "level": "h2",
+        "text": "HypergraphSpaceProvider​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/authentication": {
+    "title": "Authentication | Hypergraph",
+    "description": "Geo Connect",
+    "text": "🔗 Authentication On this page Authentication Geo Connect ​ The default and recommended way to authenticate is via Geo Connect. Geo Connect is dedicated application hosted by the GeoBrowser team. Through Geo Connect you can authenticate with your GeoBrowser account and use it to selectively delegate access to your private and public spaces. If you create you application using TypeSync or use the hypergraph-app-template the full authentication flow is already implemented for you. In the connect app you can create spaces. In the near future you will be able to delete private spaces and you also will be able to give an app permissions to create new private and/or public spaces. Hypergraph API ​ import { useHypergraphAuth } from \"@graphprotocol/hypergraph-react\" ; function RouteComponent ( ) { const { authenticated , identity } = useHypergraphAuth ( ) ; } authenticated - a boolean indicating if the user is authenticated identity - the identity of the logged in user Authentication Flows with Geo Connect ​ Signup coming from an App (without an existing Geo account) ​ User is opening App (Running App) Clicks on \"Sign in/Sign up with Geo\" Redirect to Connect Sign up for Connect -> Email + One-time Code Connect: \"Do you authorize this app (App ID, redirect URL)\" Select spaces Click \"Authorize\" -> Redirect to App You are logged into the app with your account Signup coming from an App (with an existing Geo account) ​ User is opening App (Running App) Clicks on \"Sign in/Sign up with Geo\" Redirect to Connect Login in the connect App -> Email + One-time Code Connect: \"Do you authorize this app (App ID, redirect URL)\" Select spaces Click \"Authorize\" -> Redirect to App You are logged into the app with your account Login coming from an App (user is logged out from app and connect) ​ User is opening App (Running App) Clicks on \"Sign in/Sign up with Geo\" Redirect to Connect Login in the connect App -> Email + One-time Code Do you want to login with this app? (App ID, redirect URL) Sele",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Authentication"
+      },
+      {
+        "level": "h2",
+        "text": "Geo Connect​"
+      },
+      {
+        "level": "h2",
+        "text": "Hypergraph API​"
+      },
+      {
+        "level": "h2",
+        "text": "Authentication Flows with Geo Connect​"
+      },
+      {
+        "level": "h3",
+        "text": "Signup coming from an App (without an existing Geo account)​"
+      },
+      {
+        "level": "h3",
+        "text": "Signup coming from an App (with an existing Geo account)​"
+      },
+      {
+        "level": "h3",
+        "text": "Login coming from an App (user is logged out from app and connect)​"
+      },
+      {
+        "level": "h3",
+        "text": "Login coming from an App (user is logged out from app and logged in to connect)​"
+      },
+      {
+        "level": "h2",
+        "text": "Geo Connect API​"
+      },
+      {
+        "level": "h3",
+        "text": "redirectToConnect​"
+      },
+      {
+        "level": "h3",
+        "text": "processConnectAuthSuccess​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/authentication#__docusaurus_skipToContent_fallback": {
+    "title": "Authentication | Hypergraph",
+    "description": "Geo Connect",
+    "text": "🔗 Authentication On this page Authentication Geo Connect ​ The default and recommended way to authenticate is via Geo Connect. Geo Connect is dedicated application hosted by the GeoBrowser team. Through Geo Connect you can authenticate with your GeoBrowser account and use it to selectively delegate access to your private and public spaces. If you create you application using TypeSync or use the hypergraph-app-template the full authentication flow is already implemented for you. In the connect app you can create spaces. In the near future you will be able to delete private spaces and you also will be able to give an app permissions to create new private and/or public spaces. Hypergraph API ​ import { useHypergraphAuth } from \"@graphprotocol/hypergraph-react\" ; function RouteComponent ( ) { const { authenticated , identity } = useHypergraphAuth ( ) ; } authenticated - a boolean indicating if the user is authenticated identity - the identity of the logged in user Authentication Flows with Geo Connect ​ Signup coming from an App (without an existing Geo account) ​ User is opening App (Running App) Clicks on \"Sign in/Sign up with Geo\" Redirect to Connect Sign up for Connect -> Email + One-time Code Connect: \"Do you authorize this app (App ID, redirect URL)\" Select spaces Click \"Authorize\" -> Redirect to App You are logged into the app with your account Signup coming from an App (with an existing Geo account) ​ User is opening App (Running App) Clicks on \"Sign in/Sign up with Geo\" Redirect to Connect Login in the connect App -> Email + One-time Code Connect: \"Do you authorize this app (App ID, redirect URL)\" Select spaces Click \"Authorize\" -> Redirect to App You are logged into the app with your account Login coming from an App (user is logged out from app and connect) ​ User is opening App (Running App) Clicks on \"Sign in/Sign up with Geo\" Redirect to Connect Login in the connect App -> Email + One-time Code Do you want to login with this app? (App ID, redirect URL) Sele",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Authentication"
+      },
+      {
+        "level": "h2",
+        "text": "Geo Connect​"
+      },
+      {
+        "level": "h2",
+        "text": "Hypergraph API​"
+      },
+      {
+        "level": "h2",
+        "text": "Authentication Flows with Geo Connect​"
+      },
+      {
+        "level": "h3",
+        "text": "Signup coming from an App (without an existing Geo account)​"
+      },
+      {
+        "level": "h3",
+        "text": "Signup coming from an App (with an existing Geo account)​"
+      },
+      {
+        "level": "h3",
+        "text": "Login coming from an App (user is logged out from app and connect)​"
+      },
+      {
+        "level": "h3",
+        "text": "Login coming from an App (user is logged out from app and logged in to connect)​"
+      },
+      {
+        "level": "h2",
+        "text": "Geo Connect API​"
+      },
+      {
+        "level": "h3",
+        "text": "redirectToConnect​"
+      },
+      {
+        "level": "h3",
+        "text": "processConnectAuthSuccess​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/spaces": {
+    "title": "Spaces | Hypergraph",
+    "description": "Spaces are collections of data managed by a single person or a group of people. Each space is identified by a unique ID and can be public or private.",
+    "text": "🏠 Spaces On this page Spaces Spaces are collections of data managed by a single person or a group of people. Each space is identified by a unique ID and can be public or private. Spaces are owned by a single person or a group of people and not by the app. This ensures data ownership stays with the owner of the space and not with the app. Public Spaces ​ Public spaces are spaces that are open to the public. They are visible to anyone who knows the space ID. Private Spaces ​ Private spaces are spaces that are only accessible to the people who are members of the space. Querying Spaces ​ You can query spaces using the useSpaces hook. Querying Private Spaces List ​ const { data , isPending } = useSpaces ( { mode : \"private\" } ) ; The query will return a list of all private spaces that the user is a member of and the information if the spaces list is still loading. Querying Public Spaces List ​ The query will return a list of all public spaces that are available to the user. The returned data is the same as the data returned by the useQuery hook from @tanstack/react-query . const { data , isPending , isError } = useSpaces ( { mode : \"public\" } ) ; Querying a single private Space ​ const { name , isReady , id } = useSpace ( { mode : \"private\" } ) ; The useSpace hook returns the name of the space and a boolean if the space is ready. Optionally you can provide a space ID to query a specific space. By default the space ID is the one defined in the HypergraphSpaceProvider component. const { name , isReady , id } = useSpace ( { mode : \"private\" , space : \"space-id\" } ) ; Querying a single public Space ​ const { name , isReady , id } = useSpace ( { mode : \"public\" , space : \"space-id\" } ) ; The useSpace hook returns the name of the space and a boolean if the space is ready. Optionally you can provide a space ID to query a specific space. By default the space ID is the one defined in the HypergraphSpaceProvider component. const { name , isReady , id } = useSpace ( { mode : \"publi",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Spaces"
+      },
+      {
+        "level": "h2",
+        "text": "Public Spaces​"
+      },
+      {
+        "level": "h2",
+        "text": "Private Spaces​"
+      },
+      {
+        "level": "h2",
+        "text": "Querying Spaces​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying Private Spaces List​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying Public Spaces List​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying a single private Space​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying a single public Space​"
+      },
+      {
+        "level": "h2",
+        "text": "Creating Spaces​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/spaces#__docusaurus_skipToContent_fallback": {
+    "title": "Spaces | Hypergraph",
+    "description": "Spaces are collections of data managed by a single person or a group of people. Each space is identified by a unique ID and can be public or private.",
+    "text": "🏠 Spaces On this page Spaces Spaces are collections of data managed by a single person or a group of people. Each space is identified by a unique ID and can be public or private. Spaces are owned by a single person or a group of people and not by the app. This ensures data ownership stays with the owner of the space and not with the app. Public Spaces ​ Public spaces are spaces that are open to the public. They are visible to anyone who knows the space ID. Private Spaces ​ Private spaces are spaces that are only accessible to the people who are members of the space. Querying Spaces ​ You can query spaces using the useSpaces hook. Querying Private Spaces List ​ const { data , isPending } = useSpaces ( { mode : \"private\" } ) ; The query will return a list of all private spaces that the user is a member of and the information if the spaces list is still loading. Querying Public Spaces List ​ The query will return a list of all public spaces that are available to the user. The returned data is the same as the data returned by the useQuery hook from @tanstack/react-query . const { data , isPending , isError } = useSpaces ( { mode : \"public\" } ) ; Querying a single private Space ​ const { name , isReady , id } = useSpace ( { mode : \"private\" } ) ; The useSpace hook returns the name of the space and a boolean if the space is ready. Optionally you can provide a space ID to query a specific space. By default the space ID is the one defined in the HypergraphSpaceProvider component. const { name , isReady , id } = useSpace ( { mode : \"private\" , space : \"space-id\" } ) ; Querying a single public Space ​ const { name , isReady , id } = useSpace ( { mode : \"public\" , space : \"space-id\" } ) ; The useSpace hook returns the name of the space and a boolean if the space is ready. Optionally you can provide a space ID to query a specific space. By default the space ID is the one defined in the HypergraphSpaceProvider component. const { name , isReady , id } = useSpace ( { mode : \"publi",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Spaces"
+      },
+      {
+        "level": "h2",
+        "text": "Public Spaces​"
+      },
+      {
+        "level": "h2",
+        "text": "Private Spaces​"
+      },
+      {
+        "level": "h2",
+        "text": "Querying Spaces​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying Private Spaces List​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying Public Spaces List​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying a single private Space​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying a single public Space​"
+      },
+      {
+        "level": "h2",
+        "text": "Creating Spaces​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/schema": {
+    "title": "Schema | Hypergraph",
+    "description": "The Hypergraph schema allows you define the data model for your application. It is based on the GRC-20 specification and allows you to define Types with properties and relations to other Types.",
+    "text": "🔗 Schema On this page Schema The Hypergraph schema allows you define the data model for your application. It is based on the GRC-20 specification and allows you to define Types with properties and relations to other Types. Example ​ Here is an example of a schema for an Event app with the properties name and description . import { Entity , Type } from '@graphprotocol/hypergraph' ; export class Event extends Entity . Class < Event > ( 'Event' ) ( { name : Type . Text , description : Type . Text , } ) { } Relations ​ In order to define relations between Types, you can use the Type.Relation type. import { Entity , Type } from '@graphprotocol/hypergraph' ; export class Company extends Entity . Class < Company > ( 'Company' ) ( { name : Type . Text , } ) { } export class Event extends Entity . Class < Event > ( 'Event' ) ( { name : Type . Text , description : Type . Text , sponsors : Type . Relation ( Company ) , } ) { } Available Types ​ Type.Text (string) Type.Number (number) Type.Date (date) Type.Checkbox (boolean) Type.Point (serialized to a string with a comma separated list of numbers) Type.Relation (relation to another Type) Example: import { Entity , Type } from '@graphprotocol/hypergraph' ; export class Company extends Entity . Class < Company > ( 'Company' ) ( { name : Type . Text , employees : Type . Number , founded : Type . Date , active : Type . Checkbox , location : Type . Point , } ) { } Edit this page Previous 🏠 Spaces Next ✍️ Writing Private Data Example Relations Available Types",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Schema"
+      },
+      {
+        "level": "h2",
+        "text": "Example​"
+      },
+      {
+        "level": "h2",
+        "text": "Relations​"
+      },
+      {
+        "level": "h2",
+        "text": "Available Types​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/schema#__docusaurus_skipToContent_fallback": {
+    "title": "Schema | Hypergraph",
+    "description": "The Hypergraph schema allows you define the data model for your application. It is based on the GRC-20 specification and allows you to define Types with properties and relations to other Types.",
+    "text": "🔗 Schema On this page Schema The Hypergraph schema allows you define the data model for your application. It is based on the GRC-20 specification and allows you to define Types with properties and relations to other Types. Example ​ Here is an example of a schema for an Event app with the properties name and description . import { Entity , Type } from '@graphprotocol/hypergraph' ; export class Event extends Entity . Class < Event > ( 'Event' ) ( { name : Type . Text , description : Type . Text , } ) { } Relations ​ In order to define relations between Types, you can use the Type.Relation type. import { Entity , Type } from '@graphprotocol/hypergraph' ; export class Company extends Entity . Class < Company > ( 'Company' ) ( { name : Type . Text , } ) { } export class Event extends Entity . Class < Event > ( 'Event' ) ( { name : Type . Text , description : Type . Text , sponsors : Type . Relation ( Company ) , } ) { } Available Types ​ Type.Text (string) Type.Number (number) Type.Date (date) Type.Checkbox (boolean) Type.Point (serialized to a string with a comma separated list of numbers) Type.Relation (relation to another Type) Example: import { Entity , Type } from '@graphprotocol/hypergraph' ; export class Company extends Entity . Class < Company > ( 'Company' ) ( { name : Type . Text , employees : Type . Number , founded : Type . Date , active : Type . Checkbox , location : Type . Point , } ) { } Edit this page Previous 🏠 Spaces Next ✍️ Writing Private Data Example Relations Available Types",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Schema"
+      },
+      {
+        "level": "h2",
+        "text": "Example​"
+      },
+      {
+        "level": "h2",
+        "text": "Relations​"
+      },
+      {
+        "level": "h2",
+        "text": "Available Types​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/writing-private-data": {
+    "title": "Writing Private Data | Hypergraph",
+    "description": "There are several ways to write private data to the Hypergraph.",
+    "text": "✍️ Writing Private Data On this page Writing Private Data There are several ways to write private data to the Hypergraph. Creating Entities ​ You can create entities using the useCreateEntity hook. const createEvent = useCreateEntity ( Event ) ; createEvent ( { name : \"Event 1\" , description : \"Event 1 description\" , } ) ; For relations you can provide a list of IDs of the entities you want to relate to. createEvent ( { name : \"Event 1\" , description : \"Event 1 description\" , sponsors : [ \"sponsor-id-1\" , \"sponsor-id-2\" ] , } ) ; A common pattern is to create a new entity and then relate it to an existing entity. const createCompany = useCreateEntity ( Company ) ; const createEvent = useCreateEntity ( Event ) ; const company = createCompany ( { name : \"Company 1\" , } ) ; const event = createEvent ( { name : \"Event 1\" , description : \"Event 1 description\" , sponsors : [ company . id ] , } ) ; Optionally you can provide a space ID to create an entity in a specific space. const createEvent = useCreateEntity ( Event , { space : \"space-id\" } ) ; Updating Entities ​ You can update entities using the useUpdateEntity hook. const updateEvent = useUpdateEntity ( Event ) ; updateEvent ( { id : \"event-id\" , name : \"Event 1\" , } ) ; Note: You can't update relations using the useUpdateEntity hook. It is only possible to update the properties of the entity. Optionally you can provide a space ID to update an entity in a specific space. const updateEvent = useUpdateEntity ( Event , { space : \"space-id\" } ) ; Deleting Entities ​ You can delete entities using the useDeleteEntity hook. const deleteEvent = useDeleteEntity ( ) ; deleteEvent ( { id : \"event-id\" , } ) ; Optionally you can provide a space ID to delete an entity in a specific space. const deleteEvent = useDeleteEntity ( { space : \"space-id\" } ) ; Adding Relations (not yet supported) ​ TBD Updating Relations (not yet supported) ​ TBD Removing Relations (not yet supported) ​ TBD Edit this page Previous 🔗 Schema Next 🔍 Query Pr",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Writing Private Data"
+      },
+      {
+        "level": "h2",
+        "text": "Creating Entities​"
+      },
+      {
+        "level": "h2",
+        "text": "Updating Entities​"
+      },
+      {
+        "level": "h2",
+        "text": "Deleting Entities​"
+      },
+      {
+        "level": "h2",
+        "text": "Adding Relations (not yet supported)​"
+      },
+      {
+        "level": "h2",
+        "text": "Updating Relations (not yet supported)​"
+      },
+      {
+        "level": "h2",
+        "text": "Removing Relations (not yet supported)​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/writing-private-data#__docusaurus_skipToContent_fallback": {
+    "title": "Writing Private Data | Hypergraph",
+    "description": "There are several ways to write private data to the Hypergraph.",
+    "text": "✍️ Writing Private Data On this page Writing Private Data There are several ways to write private data to the Hypergraph. Creating Entities ​ You can create entities using the useCreateEntity hook. const createEvent = useCreateEntity ( Event ) ; createEvent ( { name : \"Event 1\" , description : \"Event 1 description\" , } ) ; For relations you can provide a list of IDs of the entities you want to relate to. createEvent ( { name : \"Event 1\" , description : \"Event 1 description\" , sponsors : [ \"sponsor-id-1\" , \"sponsor-id-2\" ] , } ) ; A common pattern is to create a new entity and then relate it to an existing entity. const createCompany = useCreateEntity ( Company ) ; const createEvent = useCreateEntity ( Event ) ; const company = createCompany ( { name : \"Company 1\" , } ) ; const event = createEvent ( { name : \"Event 1\" , description : \"Event 1 description\" , sponsors : [ company . id ] , } ) ; Optionally you can provide a space ID to create an entity in a specific space. const createEvent = useCreateEntity ( Event , { space : \"space-id\" } ) ; Updating Entities ​ You can update entities using the useUpdateEntity hook. const updateEvent = useUpdateEntity ( Event ) ; updateEvent ( { id : \"event-id\" , name : \"Event 1\" , } ) ; Note: You can't update relations using the useUpdateEntity hook. It is only possible to update the properties of the entity. Optionally you can provide a space ID to update an entity in a specific space. const updateEvent = useUpdateEntity ( Event , { space : \"space-id\" } ) ; Deleting Entities ​ You can delete entities using the useDeleteEntity hook. const deleteEvent = useDeleteEntity ( ) ; deleteEvent ( { id : \"event-id\" , } ) ; Optionally you can provide a space ID to delete an entity in a specific space. const deleteEvent = useDeleteEntity ( { space : \"space-id\" } ) ; Adding Relations (not yet supported) ​ TBD Updating Relations (not yet supported) ​ TBD Removing Relations (not yet supported) ​ TBD Edit this page Previous 🔗 Schema Next 🔍 Query Pr",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Writing Private Data"
+      },
+      {
+        "level": "h2",
+        "text": "Creating Entities​"
+      },
+      {
+        "level": "h2",
+        "text": "Updating Entities​"
+      },
+      {
+        "level": "h2",
+        "text": "Deleting Entities​"
+      },
+      {
+        "level": "h2",
+        "text": "Adding Relations (not yet supported)​"
+      },
+      {
+        "level": "h2",
+        "text": "Updating Relations (not yet supported)​"
+      },
+      {
+        "level": "h2",
+        "text": "Removing Relations (not yet supported)​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/query-private-data": {
+    "title": "Query Private Data | Hypergraph",
+    "description": "Based on your schema, you can query private data that your created using Hypergraph.",
+    "text": "🔍 Query Private Data On this page Query Private Data Based on your schema, you can query private data that your created using Hypergraph. useQuery ​ In order to query private data, you need to pass in the schema type and set the mode to private . import { useQuery } from '@graphprotocol/hypergraph-react' ; import { Event } from '../schema' ; const { data } = useQuery ( Event , { mode : 'private' } ) ; Including Relations ​ By default only non-relation properties are included in the query entries. In order to include relations, you can use the include parameter. const { data } = useQuery ( Event , { mode : 'private' , include : { sponsors : { } } , } ) ; For deeper relations you can use the include parameter multiple levels deep. Currently for private data only one level of relations is supported. Querying from a specific space ​ You can also query from a specific space by passing in the spaceId parameter. const { data : spaceAData } = useQuery ( Event , { mode : 'private' , spaceId : 'space-a-id' } ) ; const { data : spaceBData } = useQuery ( Event , { mode : 'private' , spaceId : 'space-b-id' } ) ; Filtering ​ You can filter the data by passing in the filter parameter. const { data } = useQuery ( Event , { mode : 'private' , filter : { name : 'John' } } ) ; Please learn more about filtering in the Filtering query results section. Returned data ​ useQuery for private data returns: data - a list of entities defined in your schema invalidEntities - a list of entities that are in your space storage with correct type, but can't be parsed to your schema deleted - a list of entities that are marked as deleted, we keep them around to be able to later be able to publish the deleted information to the public knowledge graph const { data , invalidEntities , deleted } = useQuery ( Event , { mode : 'private' } ) ; Edit this page Previous ✍️ Writing Private Data Next 🔗 Mapping useQuery Including Relations Querying from a specific space Filtering Returned data",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Query Private Data"
+      },
+      {
+        "level": "h2",
+        "text": "useQuery​"
+      },
+      {
+        "level": "h3",
+        "text": "Including Relations​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying from a specific space​"
+      },
+      {
+        "level": "h3",
+        "text": "Filtering​"
+      },
+      {
+        "level": "h3",
+        "text": "Returned data​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/query-private-data#__docusaurus_skipToContent_fallback": {
+    "title": "Query Private Data | Hypergraph",
+    "description": "Based on your schema, you can query private data that your created using Hypergraph.",
+    "text": "🔍 Query Private Data On this page Query Private Data Based on your schema, you can query private data that your created using Hypergraph. useQuery ​ In order to query private data, you need to pass in the schema type and set the mode to private . import { useQuery } from '@graphprotocol/hypergraph-react' ; import { Event } from '../schema' ; const { data } = useQuery ( Event , { mode : 'private' } ) ; Including Relations ​ By default only non-relation properties are included in the query entries. In order to include relations, you can use the include parameter. const { data } = useQuery ( Event , { mode : 'private' , include : { sponsors : { } } , } ) ; For deeper relations you can use the include parameter multiple levels deep. Currently for private data only one level of relations is supported. Querying from a specific space ​ You can also query from a specific space by passing in the spaceId parameter. const { data : spaceAData } = useQuery ( Event , { mode : 'private' , spaceId : 'space-a-id' } ) ; const { data : spaceBData } = useQuery ( Event , { mode : 'private' , spaceId : 'space-b-id' } ) ; Filtering ​ You can filter the data by passing in the filter parameter. const { data } = useQuery ( Event , { mode : 'private' , filter : { name : 'John' } } ) ; Please learn more about filtering in the Filtering query results section. Returned data ​ useQuery for private data returns: data - a list of entities defined in your schema invalidEntities - a list of entities that are in your space storage with correct type, but can't be parsed to your schema deleted - a list of entities that are marked as deleted, we keep them around to be able to later be able to publish the deleted information to the public knowledge graph const { data , invalidEntities , deleted } = useQuery ( Event , { mode : 'private' } ) ; Edit this page Previous ✍️ Writing Private Data Next 🔗 Mapping useQuery Including Relations Querying from a specific space Filtering Returned data",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Query Private Data"
+      },
+      {
+        "level": "h2",
+        "text": "useQuery​"
+      },
+      {
+        "level": "h3",
+        "text": "Including Relations​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying from a specific space​"
+      },
+      {
+        "level": "h3",
+        "text": "Filtering​"
+      },
+      {
+        "level": "h3",
+        "text": "Returned data​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/mapping": {
+    "title": "Mapping | Hypergraph",
+    "description": "The public knowledge graph is based on property IDs. In order to integrate with the public knowledge graph you need to map your own schema to IDs from the public graph's schema.",
+    "text": "🔗 Mapping Mapping The public knowledge graph is based on property IDs. In order to integrate with the public knowledge graph you need to map your own schema to IDs from the public graph's schema. This is done using an object called a mapping. The mapping has to be provided to the HypergraphAppProvider component. A mapping entry defined the type IDs, properties and relations of a type. Here an example mapping for a schema with an Event and a Company : export const mapping : Mapping = { Event : { typeIds : [ Id . Id ( '407d9e8a-c703-4fb4-830d-98c758c8564e' ) ] , properties : { name : Id . Id ( 'a126ca53-0c8e-48d5-b888-82c734c38935' ) , } , relations : { sponsors : Id . Id ( 'a7ac80a6-d3d9-4b04-9b9f-ead1723af09f' ) , } , } , Company : { typeIds : [ Id . Id ( 'b0220a78-9205-4e5e-9bf1-c03ee0791e23' ) ] , properties : { name : Id . Id ( 'a126ca53-0c8e-48d5-b888-82c734c38935' ) , } , } , The entire mapping structure can be generated using the TypeSync tool. pnpm install -g @graphprotocol/hypergraph-cli@latest hg typesync --open Edit this page Previous 🔍 Query Private Data Next ✍️ Publishing Public Data",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Mapping"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/mapping#__docusaurus_skipToContent_fallback": {
+    "title": "Mapping | Hypergraph",
+    "description": "The public knowledge graph is based on property IDs. In order to integrate with the public knowledge graph you need to map your own schema to IDs from the public graph's schema.",
+    "text": "🔗 Mapping Mapping The public knowledge graph is based on property IDs. In order to integrate with the public knowledge graph you need to map your own schema to IDs from the public graph's schema. This is done using an object called a mapping. The mapping has to be provided to the HypergraphAppProvider component. A mapping entry defined the type IDs, properties and relations of a type. Here an example mapping for a schema with an Event and a Company : export const mapping : Mapping = { Event : { typeIds : [ Id . Id ( '407d9e8a-c703-4fb4-830d-98c758c8564e' ) ] , properties : { name : Id . Id ( 'a126ca53-0c8e-48d5-b888-82c734c38935' ) , } , relations : { sponsors : Id . Id ( 'a7ac80a6-d3d9-4b04-9b9f-ead1723af09f' ) , } , } , Company : { typeIds : [ Id . Id ( 'b0220a78-9205-4e5e-9bf1-c03ee0791e23' ) ] , properties : { name : Id . Id ( 'a126ca53-0c8e-48d5-b888-82c734c38935' ) , } , } , The entire mapping structure can be generated using the TypeSync tool. pnpm install -g @graphprotocol/hypergraph-cli@latest hg typesync --open Edit this page Previous 🔍 Query Private Data Next ✍️ Publishing Public Data",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Mapping"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/publishing-public-data": {
+    "title": "Publishing Public Data | Hypergraph",
+    "description": "Once you want to share your data with the world you need to publish it. This is done by creating the necessary Opertations (Ops) and then publishing them.",
+    "text": "✍️ Publishing Public Data On this page Publishing Public Data Once you want to share your data with the world you need to publish it. This is done by creating the necessary Opertations (Ops) and then publishing them. There are two functions to help you with this: preparePublish - creates the necessary Operations to publish the data publishOps - publishes the Operations to the public space You can generate the Ops for multiple entities and publish them in one go by concatenating the ops arrays. Prepare Publish ​ Based on entity Ids, the source space and the target space this function calculates the necessary Operations to publish the data. import { preparePublish } from \"@graphprotocol/hypergraph-react\" ; const { ops } = preparePublish ( { entity : entity , publicSpace : \"public-space-id\" , } ) ; The entity can come from a useCreateEntity result or from a useQuery result e.g. Publish ​ The publishOps function is used to publish the changes to the public space. import { publishOps } from \"@graphprotocol/hypergraph-react\" ; const { result } = publishOps ( { ops , walletClient : smartSessionClient , space : publicSpaceId , name : \"Create Event\" , // description which can be any string } ) ; Here is a full example flow: import { publishOps , useHypergraphApp } from \"@graphprotocol/hypergraph-react\" ; const MyComponent = ( { publicSpaceId } : { publicSpaceId : string } ) => { const { getSmartSessionClient } = useHypergraphApp ( ) ; const { data : events } = useQuery ( Event , { mode : \"private\" } ) ; const publishEvent = async ( entity ) => { const smartSessionClient = await getSmartSessionClient ( ) ; const { ops } = preparePublish ( { entity : entity , publicSpace : publicSpaceId , } ) ; const result = await publishOps ( { ops , walletClient : smartSessionClient , space : publicSpaceId , name : \"Create Event\" , } ) ; } ; return ( < div > { events . map ( ( event ) => ( < button key = { event . id } onClick = { ( ) => publishEvent ( event ) } > { event . name } </ button",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Publishing Public Data"
+      },
+      {
+        "level": "h2",
+        "text": "Prepare Publish​"
+      },
+      {
+        "level": "h2",
+        "text": "Publish​"
+      },
+      {
+        "level": "h2",
+        "text": "Exploring the Knowledge Graph via GeoBrowser​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/publishing-public-data#__docusaurus_skipToContent_fallback": {
+    "title": "Publishing Public Data | Hypergraph",
+    "description": "Once you want to share your data with the world you need to publish it. This is done by creating the necessary Opertations (Ops) and then publishing them.",
+    "text": "✍️ Publishing Public Data On this page Publishing Public Data Once you want to share your data with the world you need to publish it. This is done by creating the necessary Opertations (Ops) and then publishing them. There are two functions to help you with this: preparePublish - creates the necessary Operations to publish the data publishOps - publishes the Operations to the public space You can generate the Ops for multiple entities and publish them in one go by concatenating the ops arrays. Prepare Publish ​ Based on entity Ids, the source space and the target space this function calculates the necessary Operations to publish the data. import { preparePublish } from \"@graphprotocol/hypergraph-react\" ; const { ops } = preparePublish ( { entity : entity , publicSpace : \"public-space-id\" , } ) ; The entity can come from a useCreateEntity result or from a useQuery result e.g. Publish ​ The publishOps function is used to publish the changes to the public space. import { publishOps } from \"@graphprotocol/hypergraph-react\" ; const { result } = publishOps ( { ops , walletClient : smartSessionClient , space : publicSpaceId , name : \"Create Event\" , // description which can be any string } ) ; Here is a full example flow: import { publishOps , useHypergraphApp } from \"@graphprotocol/hypergraph-react\" ; const MyComponent = ( { publicSpaceId } : { publicSpaceId : string } ) => { const { getSmartSessionClient } = useHypergraphApp ( ) ; const { data : events } = useQuery ( Event , { mode : \"private\" } ) ; const publishEvent = async ( entity ) => { const smartSessionClient = await getSmartSessionClient ( ) ; const { ops } = preparePublish ( { entity : entity , publicSpace : publicSpaceId , } ) ; const result = await publishOps ( { ops , walletClient : smartSessionClient , space : publicSpaceId , name : \"Create Event\" , } ) ; } ; return ( < div > { events . map ( ( event ) => ( < button key = { event . id } onClick = { ( ) => publishEvent ( event ) } > { event . name } </ button",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Publishing Public Data"
+      },
+      {
+        "level": "h2",
+        "text": "Prepare Publish​"
+      },
+      {
+        "level": "h2",
+        "text": "Publish​"
+      },
+      {
+        "level": "h2",
+        "text": "Exploring the Knowledge Graph via GeoBrowser​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/query-public-data": {
+    "title": "Query Public Data | Hypergraph",
+    "description": "Based on your schema, you can query public data that your created using Hypergraph. It works very much like querying private data.",
+    "text": "🔍 Query Public Data On this page Query Public Data Based on your schema, you can query public data that your created using Hypergraph. It works very much like querying private data . useQuery ​ In order to query private data, you need to pass in the schema type and set the mode to public . import { useQuery } from '@graphprotocol/hypergraph-react' ; import { Event } from '../schema' ; const { data , isPending , isError } = useQuery ( Event , { mode : 'public' } ) ; Including Relations ​ By default only non-relation properties are included in the query entries. In order to include relations, you can use the include parameter. const { data , isPending , isError } = useQuery ( Event , { mode : 'public' , include : { sponsors : { } } , } ) ; For deeper relations you can use the include parameter multiple levels deep. Currently two levels of relations are supported for public data. Querying from a specific space ​ You can also query from a specific space by passing in the space parameter. const { data : spaceAData } = useQuery ( Event , { mode : 'public' , space : 'space-a-id' } ) ; const { data : spaceBData } = useQuery ( Event , { mode : 'public' , space : 'space-b-id' } ) ; Filtering (not yet supported) ​ You can filter the data by passing in the filter parameter. const { data , isPending , isError } = useQuery ( Event , { mode : 'public' , filter : { name : 'John' } } ) ; Please learn more about filtering in the Filtering query results section. Returned data ​ useQuery for private data returns: data - a list of entities defined in your schema invalidEntities - a list of entities that are in your space storage with correct type, but can't be parsed to your schema isPending - a boolean indicating if the query is loading isError - a boolean indicating if the query failed In addition you have access to the full response from @tanstack/react-query 's useQuery hook, which is used internally to query the public data. const { data , isPending , isError } = useQuery ( Event ,",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Query Public Data"
+      },
+      {
+        "level": "h2",
+        "text": "useQuery​"
+      },
+      {
+        "level": "h3",
+        "text": "Including Relations​"
+      },
+      {
+        "level": "h3",
+        "text": "Querying from a specific space​"
+      },
+      {
+        "level": "h3",
+        "text": "Filtering (not yet supported)​"
+      },
+      {
+        "level": "h3",
+        "text": "Returned data​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/filtering-query-results": {
+    "title": "Filtering Query Results | Hypergraph",
+    "description": "The filter API allows you to filter the results of a query by property values and in the future also by relations.",
+    "text": "🔍 Filtering Query Results On this page Filtering Query Results The filter API allows you to filter the results of a query by property values and in the future also by relations. Note: Filtering is not yet supported for public data. Filtering by property values ​ export class Event extends Entity . Class < Event > ( \"Event\" ) ( { name : Type . Text , cancelled : Type . Checkbox , } ) { } // inside the React component const { data } = useQuery ( Event , { filter : { cancelled : { is : false } , } , } ) ; The filter API supports different filters for different property types and offers a logical or and not operator. // checkbox filter { is : true / false , // exact match exists : true / false , // filter by existence of the property } // text filter { is : \"text\" , // exact match contains : \"text\" , startsWith : \"text\" , endsWith : \"text\" , exists : true / false , // filter by existence of the property } // number filter { is : 42 , lessThan : 42 , lessThanOrEqual : 42 , greaterThan : 42 , greaterThanOrEqual : 42 , exists : true / false , // filter by existence of the property } // point filter { is : [ 0 , 42 ] , exists : true / false , // filter by existence of the property } // logical `not` for a string { not : { is : \"Jane Doe\" , } , } // logical `or` for a string { or : [ { name : \"Jane Doe\" } , { name : \"John Doe\" } , ] , } Combining logical filters ​ { or : [ not : { name : \"Jane Doe\" } , not : { name : \"John Doe\" } , ] , } Full examples ​ // ever person except if their name is not Jane Doe or John Doe const { data } = useQuery ( Person , { filter : { or : [ not : { name : { is : \"Jane Doe\" } } , not : { name : { is : \"John Doe\" } } , ] , } , } ) ; // ever person that is 42, but their name is not Jane Doe or John Doe const { data } = useQuery ( Person , { filter : { age : { equals : 42 } , or : [ not : { name : { is : \"Jane Doe\" } } , not : { name : { is : \"John Doe\" } } , ] , not : { or : [ { name : { is : \"Jane Doe\" } } , { name : { is : \"John Doe\" } } , ] , ",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Filtering Query Results"
+      },
+      {
+        "level": "h2",
+        "text": "Filtering by property values​"
+      },
+      {
+        "level": "h2",
+        "text": "Combining logical filters​"
+      },
+      {
+        "level": "h2",
+        "text": "Full examples​"
+      },
+      {
+        "level": "h2",
+        "text": "Relation filtering​"
+      },
+      {
+        "level": "h3",
+        "text": "Filter on values of the to entity​"
+      },
+      {
+        "level": "h3",
+        "text": "Filter on the relation entity​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/space-invitations": {
+    "title": "Space Invitations | Hypergraph",
+    "description": "Space invitations are a way to invite other users to a space. Currently only invitations for private spaces are supported. Public space invitations are possible within GeoBrowser and will be supported in the future.",
+    "text": "🔗 Space Invitations On this page Space Invitations Space invitations are a way to invite other users to a space. Currently only invitations for private spaces are supported. Public space invitations are possible within GeoBrowser and will be supported in the future. Invite to Space ​ const { inviteToSpace } = useHypergraphApp ( ) ; inviteToSpace ( { space : \"space-id\" , invitee : { accountAddress : \"0x1234567890123456789012345678901234567890\" , } , } ) ; Listing Invitations ​ const { listInvitations } = useHypergraphApp ( ) ; listInvitations ( ) ; Once the functions is called the invitations are requested from and are available in the Hypergraph store. import { useSelector } from \"@xstate/store/react\" ; import { store } from \"@graphprotocol/hypergraph\" ; const invitations = useSelector ( store , ( state ) => state . context . invitations ) ; Accepting Invitations ​ const { acceptInvitation } = useHypergraphApp ( ) ; acceptInvitation ( { invitation : \"invitation-id\" , } ) ; Edit this page Previous 🔍 Filtering Query Results Next 🔍 Inboxes Invite to Space Listing Invitations Accepting Invitations",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Space Invitations"
+      },
+      {
+        "level": "h2",
+        "text": "Invite to Space​"
+      },
+      {
+        "level": "h2",
+        "text": "Listing Invitations​"
+      },
+      {
+        "level": "h2",
+        "text": "Accepting Invitations​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/inboxes": {
+    "title": "Inboxes | Hypergraph",
+    "description": "Inboxes are a way to send and receive messages to and from other users and spaces. They are a way to communicate with other users and spaces.",
+    "text": "🔍 Inboxes On this page Inboxes Inboxes are a way to send and receive messages to and from other users and spaces. They are a way to communicate with other users and spaces. Use Cases ​ Job applications Contact form submission Sign up for an event Direct messages from one account to another Direct messages from an account to a space More documentation will follow soon. Edit this page Previous 🔗 Space Invitations Next 🛠️ Troubleshooting Use Cases",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "Inboxes"
+      },
+      {
+        "level": "h2",
+        "text": "Use Cases​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/faq": {
+    "title": "Frequently Asked Questions | Hypergraph",
+    "description": "Answers to recurring questions about Hypergraph.",
+    "text": "❓ FAQ On this page ❓ FAQ General ​ What is Hypergraph? ​ Hypergraph is a TypeScript-first framework for building local-first apps that syncs encrypted data to a shared knowledge graph. Does it replace my backend? ​ Yes—Hypergraph is your data layer. You still host a thin sync server, but your business logic lives entirely on the client. Who is Hypergraph for? ​ Developers building collaborative, consumer-facing apps that require real-time data sync, end-to-end encryption, and public knowledge graph interoperability. Ideal for those who want to focus on client-side logic without managing backend infrastructure. What problems does Hypergraph solve? ​ Real-time sync of private data across users and devices with E2EE. No traditional backend or database required—framework handles storage and sync. Publishing and consuming public data in an interoperable knowledge graph. Built-in user authentication and access control. Enables network effects by reusing existing data across apps. What assumptions do we make about developers? ​ We assume you are comfortable writing React applications in TypeScript and familiar with common UI patterns (e.g., inboxes). How can I integrate Hypergraph into an existing application? ​ You can add Hypergraph as a collaboration and privacy layer to an existing app, enabling real-time sync and end-to-end encryption while keeping your current stack for other functionality. Where can I find more examples or support? ​ Browse our GitHub repository for sample apps and open issues. Join the community through our issue tracker and discussion forums. How can I share feedback? ​ Provide feedback via GitHub issues or our upcoming feedback form linked in the docs. How do I get started? ​ See our Quickstart guide: 🚀 Quickstart . What are Spaces? ​ Spaces are the primary grouping for users and content in Hypergraph; they represent collaboration contexts and topics. Only members of a space can access its private data. Where can I find the API reference? ​ Refer",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "❓ FAQ"
+      },
+      {
+        "level": "h2",
+        "text": "General​"
+      },
+      {
+        "level": "h3",
+        "text": "What is Hypergraph?​"
+      },
+      {
+        "level": "h3",
+        "text": "Does it replace my backend?​"
+      },
+      {
+        "level": "h3",
+        "text": "Who is Hypergraph for?​"
+      },
+      {
+        "level": "h3",
+        "text": "What problems does Hypergraph solve?​"
+      },
+      {
+        "level": "h3",
+        "text": "What assumptions do we make about developers?​"
+      },
+      {
+        "level": "h3",
+        "text": "How can I integrate Hypergraph into an existing application?​"
+      },
+      {
+        "level": "h3",
+        "text": "Where can I find more examples or support?​"
+      },
+      {
+        "level": "h3",
+        "text": "How can I share feedback?​"
+      },
+      {
+        "level": "h3",
+        "text": "How do I get started?​"
+      },
+      {
+        "level": "h3",
+        "text": "What are Spaces?​"
+      },
+      {
+        "level": "h3",
+        "text": "Where can I find the API reference?​"
+      },
+      {
+        "level": "h3",
+        "text": "How do I troubleshoot common errors?​"
+      },
+      {
+        "level": "h2",
+        "text": "Technical​"
+      },
+      {
+        "level": "h3",
+        "text": "Is Hypergraph open-source?​"
+      },
+      {
+        "level": "h2",
+        "text": "Security & Privacy​"
+      },
+      {
+        "level": "h3",
+        "text": "Can the server read my private data?​"
+      },
+      {
+        "level": "h3",
+        "text": "What happens if I lose my keys?​"
+      },
+      {
+        "level": "h3",
+        "text": "Edit on GitHub​"
+      }
+    ]
+  },
+  "https://docs.hypergraph.thegraph.com/docs/advanced/running-connect-and-sync-server-locally": {
+    "title": "running-connect-and-sync-server-locally | Hypergraph",
+    "description": "Running Connect and Sync Server Locally",
+    "text": "Advanced Running Geo Connect and Sync Server Locally On this page running-connect-and-sync-server-locally Running Connect and Sync Server Locally ​ To run the Connect and Sync Server locally, you need to get the Hypergraph repository: git clone https://github.com/graphprotocol/hypergraph.git cd hypergraph pnpm install cd apps/connect pnpm dev # in another tab cd apps/server pnpm dev The Connect app is available at http://localhost:5173 and the Sync Server is available at http://localhost:3000 . Edit this page Previous ❓ FAQ Running Connect and Sync Server Locally",
+    "headers": [
+      {
+        "level": "h1",
+        "text": "running-connect-and-sync-server-locally"
+      },
+      {
+        "level": "h2",
+        "text": "Running Connect and Sync Server Locally​"
+      }
+    ]
+  }
+}
